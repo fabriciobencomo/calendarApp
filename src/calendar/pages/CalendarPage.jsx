@@ -7,6 +7,7 @@ import { FabAddNew
 import { localizer, getMessagesEs } from '../../helpers/'
 import { useState } from 'react'
 import { useUiStore, useCalendarStore } from '../../hooks'
+import { FabDelete } from '../components/FabDelete'
 
 
 
@@ -65,6 +66,7 @@ export const CalendarPage = () => {
       />
       <CalendarModal></CalendarModal>
       <FabAddNew></FabAddNew>
+      <FabDelete></FabDelete>
     </>
   )
 }
